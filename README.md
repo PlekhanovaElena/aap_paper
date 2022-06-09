@@ -1,5 +1,5 @@
-# aap_paper
-Code for Arctic albedo paper
+# Code for Arctic albedo paper
+
 The analysis goes as following
 
 ### prepare_MODIS_albedo_and_LSM_python
