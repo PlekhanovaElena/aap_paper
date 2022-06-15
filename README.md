@@ -14,3 +14,18 @@ The structure of the scripts is the following
 I also prepare the land surface models (LSMs) NetCDF files: reproject them, convert them to TIFF and crop them via **LSM_NetCDF_to_tiff_reproject_and_crop** script. The original LSMs were downloaded for 15th of July for years 2000-2014 of "land-hist" experiment. They are openly available at:
 https://esgf-node.llnl.gov/projects/cmip6/
 
+
+### r_analysis
+
+* **Filtering**
+
+  Excluding snow based on MCD43A2 snow flag and MOD10A2 snow product. Then filtering low quality pixels based on MCD43A2 quality flags.
+
+* **Calculation of slopes**
+
+  We calculated the slope with Theil–Sen estimator (Sen, 1968) and determined significance with Kendall’s tau statistic (p-value < 0.05). Slope and p-values were calculated for MODIS 2000-2022, MODIS 2000-2014 and land surface models from CMIP6.
+  
+* **Figures**
+
+  Constructing figures for main text and supplementary
+  
