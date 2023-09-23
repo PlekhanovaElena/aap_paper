@@ -1,6 +1,12 @@
-# Code for Arctic albedo paper
+# Arctic albedo MODIS trend analysis
 
-The analysis goes as following
+This is a code for the following paper
+
+E Plekhanova, JS Kim, J Oehri, A Erb, C Schaaf, G Schaepman-Strub
+**Mid-summer snow-free albedo across the Arctic tundra was mostly stable or increased over the past two decades** (2022) *Environmental Research Letters*
+[https://doi.org/10.1088/1748-9326/aca5a1](https://doi.org/10.1088/1748-9326/aca5a1)
+
+In this code, I preprocess and analyze trends across 2000-2022 of MODIS albedo data ([MCD43A3](https://lpdaac.usgs.gov/products/mcd43a3v061/)). Then I prepare and analyze trends across 2000-2014 of the climate data from [CMIP6 LSMs](https://esgf-node.llnl.gov/projects/cmip6/)
 
 ### prepare_MODIS_albedo_and_LSM_python
 
